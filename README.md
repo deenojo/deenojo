@@ -191,8 +191,8 @@ graph TB
 ## 📝 Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#2](https://github.com/mauposad/proto-star-challenge/pull/2) in [mauposad/proto-star-challenge](https://github.com/mauposad/proto-star-challenge)
-2. 💪 Opened PR [#2](https://github.com/mauposad/proto-star-challenge/pull/2) in [mauposad/proto-star-challenge](https://github.com/mauposad/proto-star-challenge)
+1. ℹ️ Labeled PR [#6](https://github.com/deenojo/Vuln-Remediation-Agent/pull/6) in [deenojo/Vuln-Remediation-Agent](https://github.com/deenojo/Vuln-Remediation-Agent)
+2. 💪 Opened PR [#6](https://github.com/deenojo/Vuln-Remediation-Agent/pull/6) in [deenojo/Vuln-Remediation-Agent](https://github.com/deenojo/Vuln-Remediation-Agent)
 <!--END_SECTION:activity-->
 
 ---
