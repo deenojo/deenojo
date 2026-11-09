@@ -45,6 +45,11 @@ A hardened Terraform module for deploying a product into a customer's Azure subs
 - Checkov **54 passed, 0 failed** · **9/9** security tests on a mock provider (no Azure account needed)
 - **6 custom deny policies** + the CIS Azure Foundations initiative · **10 alerts** on security-relevant changes
 
+### 🔎 [Pen Test → Remediation Playbook](https://github.com/deenojo/Vulnerable-App-Pen-Test)
+Takes common web-app pen-test findings and closes them for good: every OWASP Top 10 issue gets a fix, a regression test, and a static-analysis rule that fails CI if it returns.
+- **6 findings remediated** (1 Critical, 4 High, 1 Medium) across 5 OWASP Top 10 categories
+- **18 regression tests** + **5 self-tested Semgrep rules** · CI runs pytest · Semgrep · Bandit · pip-audit, all green
+
 ---
 
 ## 🏆 Featured SRE Portfolio Projects
