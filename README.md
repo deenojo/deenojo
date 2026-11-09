@@ -38,6 +38,12 @@ A gateway in front of production LLM features: blocks prompt injection, quaranti
 - Against real Claude, 5 trials per attack: **4 of 80 attacks landed alone → 0 of 80 with PromptWall**
 - Stopped zero-click exfiltration through a poisoned document that fooled the model 4 of 5 times
 - **0 of 60** benign requests over-blocked · under 0.1 ms overhead · mapped to the OWASP Top 10 for LLM apps
+- Red-teamed with NVIDIA garak (370 attacks): found and fixed 3 output-handling bugs; XSS/exfiltration **27/41 → 0/41** in the worst case
+
+### 🏰 [TenantGuard: Secure Baseline for Customer-Cloud Deployments](https://github.com/deenojo/TenantGuard)
+A hardened Terraform module for deploying a product into a customer's Azure subscription: nothing public, managed identities only, HSM-backed keys, every resource logged, and Azure Policy guardrails against drift.
+- Checkov **54 passed, 0 failed** · **9/9** security tests on a mock provider (no Azure account needed)
+- **6 custom deny policies** + the CIS Azure Foundations initiative · **10 alerts** on security-relevant changes
 
 ---
 
