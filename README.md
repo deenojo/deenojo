@@ -217,8 +217,8 @@ graph TB
 ## 📝 Recent Activity
 
 <!--START_SECTION:activity-->
-1. ℹ️ Labeled PR [#6](https://github.com/deenojo/Vuln-Remediation-Agent/pull/6) in [deenojo/Vuln-Remediation-Agent](https://github.com/deenojo/Vuln-Remediation-Agent)
-2. 💪 Opened PR [#6](https://github.com/deenojo/Vuln-Remediation-Agent/pull/6) in [deenojo/Vuln-Remediation-Agent](https://github.com/deenojo/Vuln-Remediation-Agent)
+1. 🎉 Merged PR [#11](https://github.com/deenojo/Vulnerability-Remediation-Agent/pull/11) in [deenojo/Vulnerability-Remediation-Agent](https://github.com/deenojo/Vulnerability-Remediation-Agent)
+2. 💪 Opened PR [#11](https://github.com/deenojo/Vulnerability-Remediation-Agent/pull/11) in [deenojo/Vulnerability-Remediation-Agent](https://github.com/deenojo/Vulnerability-Remediation-Agent)
 <!--END_SECTION:activity-->
 
 ---
