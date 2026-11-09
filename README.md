@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Deen Ojo - Site Reliability Engineer
+# 👋 Hi, I'm Deen Ojo - AI Systems Engineer
 
 <div align="center">
   
@@ -8,9 +8,9 @@
 
 </div>
 
-## 🚀 Site Reliability Engineer | Platform Engineer | DevOps Engineer
+## 🚀 AI Systems Engineer · Reliability & Security · MS AI Systems Management @ CMU
 
-I'm a passionate **Site Reliability Engineer** with expertise in building scalable, reliable systems and implementing SRE best practices. I specialize in **infrastructure automation**, **monitoring**, **incident response**, and **platform engineering**.
+I build **AI systems that are reliable and secure in production**: from SRE/DevOps and **infrastructure automation** to **AI agents**, **LLM guardrails** and **DevSecOps**. Background in Azure DevOps for banking infrastructure; currently pursuing an **MS in AI Systems Management at Carnegie Mellon**.
 
 ### 🔧 What I Do
 - 🏗️ **Infrastructure as Code** - Terraform, Kubernetes, AWS/GCP/Azure
