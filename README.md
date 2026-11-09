@@ -18,6 +18,26 @@ I'm a passionate **Site Reliability Engineer** with expertise in building scalab
 - 🚨 **Incident Response** - Chaos Engineering, Automated Runbooks, SLO Management
 - 🚀 **CI/CD & Deployment** - Blue-Green, Canary, GitOps, Advanced Deployment Strategies
 - 📈 **Capacity Planning** - ML-powered forecasting, Cost optimization, Resource management
+- 🛡️ **DevSecOps & AI Security** - Vulnerability remediation, supply-chain security, LLM guardrails and red-teaming
+
+---
+
+## 🛡️ Featured: AI Security & DevSecOps
+
+### 🩹 [Patchwarden: Self-Healing Vulnerability Remediation Agent](https://github.com/deenojo/Vulnerability-Remediation-Agent)
+An AI agent that finds vulnerabilities, triages them by real reachability, opens the **smallest safe fix PRs**, and patches containers in place, while a deterministic policy gate decides what ships.
+- 1,596 raw findings → 1,392 unique (Trivy + OSV-Scanner); **Claude triage agrees with hand labels 71% vs 43%** for rules alone
+- Smallest-safe-upgrade fixes: **4 of 4 PRs pass CI** (vs 5 of 6 failing with newest-version bumps)
+- Container self-heal: **287 OS CVEs → 0**, verified, signed with Sigstore, rolled out to Kubernetes
+- Red-teamed: even a fully compromised model can't make it ship anything dangerous
+
+[▶ 3-min demo](https://youtu.be/qShgD-97AX4) · [📊 Live dashboard](https://deenojo.github.io/Vulnerability-Remediation-Agent/) · [Threat model](https://github.com/deenojo/Vulnerability-Remediation-Agent/blob/main/THREAT_MODEL.md)
+
+### 🧱 [PromptWall: LLM Runtime Security Gateway](https://github.com/deenojo/PromptWall)
+A gateway in front of production LLM features: blocks prompt injection, quarantines poisoned documents, stops PII/secret leaks, and enforces tool-call policy.
+- Against real Claude, 5 trials per attack: **4 of 80 attacks landed alone → 0 of 80 with PromptWall**
+- Stopped zero-click exfiltration through a poisoned document that fooled the model 4 of 5 times
+- **0 of 60** benign requests over-blocked · under 0.1 ms overhead · mapped to the OWASP Top 10 for LLM apps
 
 ---
 
